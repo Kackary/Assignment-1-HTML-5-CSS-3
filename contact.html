@@ -22,6 +22,36 @@
             </nav>
         </header>
 
+        <article id="main-content">
+            <section>
+                <h2>Contact Me</h2>
+                <p>If you'd like to reach me, fill out this contact form. </p>
+                
+                <form action="mailto:your.email@example.com" method="post" enctype="text/plain" name="contactform"> #creates form that uses email to contact
+                    <p>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" id="name" required>
+                    </p>
+                    
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required>
+                    </p>
+                    
+                    <p>
+                        <label for="comments">Comments:</label>
+                        <input type="text" name="comments" id="comments" required>
+                    </p>
+                    
+                    <p>
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </p>
+                </form>
+
+            </section>
+        </article>
+
         <footer>
             <p>Contact: Zachary.Brienesse@ontariotechu.net</p>
             <p>&copy; 2025 Zachary Brienesse. All rights reserved.</p>

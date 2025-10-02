@@ -6,13 +6,13 @@ body {
     color: white;
     background: linear-gradient(to bottom, #411505 0%, #751500 100%);
     font-family: Arial, sans-serif;
+    font-size: 11px;
     padding: 20px;
     margin: 0;
 }
 
 #wrapper {
-    width: 960px;
-    margin: 0 auto;
+    width: 100%;
     background-color: white;
     min-height: 100vh;
 }
@@ -24,21 +24,21 @@ header {
     margin: 0;
 }
 
+nav a {
+    color: black;
+    text-decoration: underline;
+}
+
 #profile-photo {
     max-width: 100%;
-    width: 200px;
+    width: 120px;
     height: auto;
 }
 
 video {
     max-width: 100%;
-    width: 440px;
+    width: 280px;
     height: auto;
-}
-
-nav a {
-    color: black;
-    text-decoration: underline;
 }
 
 footer {

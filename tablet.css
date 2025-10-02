@@ -18,14 +18,18 @@ body {
 }
 
 header {
-    color: black;
+    color: #220b03;
     background: linear-gradient(45deg, #b98a87 0%, #502620 100%);
     padding: 20px;
     margin: 0;
 }
 
 nav a {
-    color: black;
+    color: #220b03;
+    text-decoration: underline;
+}
+
+h2 {
     text-decoration: underline;
 }
 

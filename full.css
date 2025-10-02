@@ -1,13 +1,29 @@
 @charset "UTF-8";
 
+/* colour scheme: #411505 #751500 #b98a87 #502620 #502620*/
+
 body {
-    background-color: #3498DB
+    color: white;
+    background: linear-gradient(to bottom, #411505 0%, #751500 100%);
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0;
 }
 
 header {
-    background-color: #E74C3C
+    color: black;
+    background: linear-gradient(45deg, #b98a87 0%, #502620 100%);
+    padding: 20px;
+    margin: 0;
+}
+
+nav a {
+    color: black;
+    text-decoration: underline;
 }
 
 footer {
-    background-color: #2C3E50
+    color: white;
+    background-color: #502620;
+    padding: 10px;
 }

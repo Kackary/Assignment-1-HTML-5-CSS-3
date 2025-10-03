@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* colour scheme: #411505 #751500 #b98a87 #502620 #502620 #220b03*/
-
+/**/
 body {
     color: white;
     background: linear-gradient(to bottom, #411505 0%, #751500 100%);
@@ -19,9 +19,18 @@ body {
 
 header {
     color: #220b03;
-    background: linear-gradient(45deg, #b98a87 0%, #502620 100%);
+    background: linear-gradient(45deg, #b98a87 0%, #502620 100%); /*angled gradient*/
     padding: 20px;
     margin: 0;
+}
+
+nav a {
+    color: #220b03;
+    text-decoration: underline;
+}
+
+h2 {
+    text-decoration: underline;
 }
 
 #profile-photo {
@@ -34,15 +43,6 @@ video {
     max-width: 100%;
     width: 440px;
     height: auto;
-}
-
-nav a {
-    color: #220b03;
-    text-decoration: underline;
-}
-
-h2 {
-    text-decoration: underline;
 }
 
 footer {

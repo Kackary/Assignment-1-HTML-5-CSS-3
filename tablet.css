@@ -6,20 +6,21 @@ body {
     color: white;
     background: linear-gradient(to bottom, #411505 0%, #751500 100%);
     font-family: Arial, sans-serif;
-    font-size: 14px;
+    font-size: 14px; /*changes font size of all text to fit better in the slightly smaller screen*/
     padding: 20px;
     margin: 0;
 }
 
 #wrapper {
     width: 100%;
+    margin: 0 auto;
     background-color: white;
     min-height: 100vh;
 }
 
 header {
     color: #220b03;
-    background: linear-gradient(45deg, #b98a87 0%, #502620 100%);
+    background: linear-gradient(45deg, #b98a87 0%, #502620 100%); /*angled gradient*/
     padding: 20px;
     margin: 0;
 }
@@ -35,13 +36,13 @@ h2 {
 
 #profile-photo {
     max-width: 100%;
-    width: 200px;
+    width: 200px; /*adjusts photo size to fit in slightly smaller screen*/
     height: auto;
 }
 
 video {
     max-width: 100%;
-    width: 440px;
+    width: 440px; /*adjusts video size to fit in slightly smaller screen*/
     height: auto;
 }
 
